@@ -275,7 +275,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
           const observations = entity.observations.map(obs => ({
             content: obs,
-            learned_at: Firestore.FieldValue.serverTimestamp(),
+            learned_at: new Date().toISOString(),
             learned_from_interface: sourceInterface,
           }));
 
