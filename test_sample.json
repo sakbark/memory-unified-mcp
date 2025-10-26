@@ -1,0 +1,384 @@
+{
+  "total_tools": 209,
+  "sample_size": 69,
+  "sample_percentage": 33,
+  "selected_tools": [
+    {
+      "server": "google-workspace",
+      "tool": "read_sheet_values"
+    },
+    {
+      "server": "xero",
+      "tool": "create-tracking-options"
+    },
+    {
+      "server": "filesystem",
+      "tool": "read_file"
+    },
+    {
+      "server": "github",
+      "tool": "create_branch"
+    },
+    {
+      "server": "xero",
+      "tool": "create-bank-transaction"
+    },
+    {
+      "server": "mcp-files",
+      "tool": "insert_text"
+    },
+    {
+      "server": "time",
+      "tool": "convert_time"
+    },
+    {
+      "server": "xero",
+      "tool": "list-report-balance-sheet"
+    },
+    {
+      "server": "apify",
+      "tool": "fetch-apify-docs"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "create_doc"
+    },
+    {
+      "server": "github",
+      "tool": "create_pull_request_review"
+    },
+    {
+      "server": "mcp-tasks",
+      "tool": "tasks_search"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "modify_doc_text"
+    },
+    {
+      "server": "xero",
+      "tool": "update-quote"
+    },
+    {
+      "server": "transcribe",
+      "tool": "read-transcriptions"
+    },
+    {
+      "server": "filesystem",
+      "tool": "read_text_file"
+    },
+    {
+      "server": "xero",
+      "tool": "update-credit-note"
+    },
+    {
+      "server": "everything",
+      "tool": "getTinyImage"
+    },
+    {
+      "server": "xero",
+      "tool": "update-timesheet-line"
+    },
+    {
+      "server": "github",
+      "tool": "search_users"
+    },
+    {
+      "server": "xero",
+      "tool": "list-contact-groups"
+    },
+    {
+      "server": "filesystem",
+      "tool": "search_files"
+    },
+    {
+      "server": "everything",
+      "tool": "sampleLLM"
+    },
+    {
+      "server": "deepseek",
+      "tool": "multi_turn_chat"
+    },
+    {
+      "server": "apify",
+      "tool": "search-apify-docs"
+    },
+    {
+      "server": "xero",
+      "tool": "create-contact"
+    },
+    {
+      "server": "github",
+      "tool": "update_pull_request_branch"
+    },
+    {
+      "server": "xero",
+      "tool": "list-profit-and-loss"
+    },
+    {
+      "server": "xero",
+      "tool": "list-tracking-categories"
+    },
+    {
+      "server": "cloud-run",
+      "tool": "get_service"
+    },
+    {
+      "server": "filesystem",
+      "tool": "read_multiple_files"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "get_events"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "get_gmail_message_content"
+    },
+    {
+      "server": "memory-unified",
+      "tool": "create_unified_entities"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "modify_sheet_values"
+    },
+    {
+      "server": "github",
+      "tool": "get_pull_request"
+    },
+    {
+      "server": "xero",
+      "tool": "list-manual-journals"
+    },
+    {
+      "server": "xero",
+      "tool": "update-tracking-category"
+    },
+    {
+      "server": "xero",
+      "tool": "list-aged-receivables-by-contact"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "get_or_create_label"
+    },
+    {
+      "server": "everything",
+      "tool": "printEnv"
+    },
+    {
+      "server": "xero",
+      "tool": "update-tracking-options"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "get_gmail_messages_content_batch"
+    },
+    {
+      "server": "cloud-run",
+      "tool": "get_service_log"
+    },
+    {
+      "server": "xero",
+      "tool": "list-contacts"
+    },
+    {
+      "server": "github",
+      "tool": "search_issues"
+    },
+    {
+      "server": "filesystem",
+      "tool": "directory_tree"
+    },
+    {
+      "server": "deepseek",
+      "tool": "chat_completion"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "list_email_labels"
+    },
+    {
+      "server": "github",
+      "tool": "get_pull_request_status"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "delete_filter"
+    },
+    {
+      "server": "apify",
+      "tool": "get-actor-output"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "search_emails"
+    },
+    {
+      "server": "mcp-tasks",
+      "tool": "tasks_summary"
+    },
+    {
+      "server": "memory",
+      "tool": "delete_entities"
+    },
+    {
+      "server": "memory-unified",
+      "tool": "search_unified_memory"
+    },
+    {
+      "server": "xero",
+      "tool": "create-credit-note"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "draft_email"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "get_doc_content"
+    },
+    {
+      "server": "github",
+      "tool": "create_pull_request"
+    },
+    {
+      "server": "xero",
+      "tool": "list-bank-transactions"
+    },
+    {
+      "server": "mcp-files",
+      "tool": "read_symbol"
+    },
+    {
+      "server": "mcp-tasks",
+      "tool": "tasks_add"
+    },
+    {
+      "server": "github",
+      "tool": "get_pull_request_reviews"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "get_drive_file_content"
+    },
+    {
+      "server": "transcribe",
+      "tool": "get-balance"
+    },
+    {
+      "server": "gmail-advanced",
+      "tool": "modify_email"
+    },
+    {
+      "server": "cloud-run",
+      "tool": "deploy_container_image"
+    },
+    {
+      "server": "google-workspace",
+      "tool": "create_spreadsheet"
+    }
+  ],
+  "by_server": {
+    "google-workspace": [
+      "read_sheet_values",
+      "create_doc",
+      "modify_doc_text",
+      "get_events",
+      "get_gmail_message_content",
+      "modify_sheet_values",
+      "get_gmail_messages_content_batch",
+      "get_doc_content",
+      "get_drive_file_content",
+      "create_spreadsheet"
+    ],
+    "xero": [
+      "create-tracking-options",
+      "create-bank-transaction",
+      "list-report-balance-sheet",
+      "update-quote",
+      "update-credit-note",
+      "update-timesheet-line",
+      "list-contact-groups",
+      "create-contact",
+      "list-profit-and-loss",
+      "list-tracking-categories",
+      "list-manual-journals",
+      "update-tracking-category",
+      "list-aged-receivables-by-contact",
+      "update-tracking-options",
+      "list-contacts",
+      "create-credit-note",
+      "list-bank-transactions"
+    ],
+    "filesystem": [
+      "read_file",
+      "read_text_file",
+      "search_files",
+      "read_multiple_files",
+      "directory_tree"
+    ],
+    "github": [
+      "create_branch",
+      "create_pull_request_review",
+      "search_users",
+      "update_pull_request_branch",
+      "get_pull_request",
+      "search_issues",
+      "get_pull_request_status",
+      "create_pull_request",
+      "get_pull_request_reviews"
+    ],
+    "mcp-files": [
+      "insert_text",
+      "read_symbol"
+    ],
+    "time": [
+      "convert_time"
+    ],
+    "apify": [
+      "fetch-apify-docs",
+      "search-apify-docs",
+      "get-actor-output"
+    ],
+    "mcp-tasks": [
+      "tasks_search",
+      "tasks_summary",
+      "tasks_add"
+    ],
+    "transcribe": [
+      "read-transcriptions",
+      "get-balance"
+    ],
+    "everything": [
+      "getTinyImage",
+      "sampleLLM",
+      "printEnv"
+    ],
+    "deepseek": [
+      "multi_turn_chat",
+      "chat_completion"
+    ],
+    "cloud-run": [
+      "get_service",
+      "get_service_log",
+      "deploy_container_image"
+    ],
+    "memory-unified": [
+      "create_unified_entities",
+      "search_unified_memory"
+    ],
+    "gmail-advanced": [
+      "get_or_create_label",
+      "list_email_labels",
+      "delete_filter",
+      "search_emails",
+      "draft_email",
+      "modify_email"
+    ],
+    "memory": [
+      "delete_entities"
+    ]
+  }
+}
