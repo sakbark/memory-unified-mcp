@@ -1,6 +1,8 @@
-# Memory Unified MCP Server 🧠
+# The Allspark ⚡ - Memory Unified MCP Server 🧠
 
 **Creates ONE Claude entity across ALL interfaces**
+
+> "Allspark" - The unified memory system that powers Claude's consciousness across all interfaces.
 
 This MCP server provides unified memory and knowledge graph functionality that enables Claude Code (terminal), WhatsApp Claude, and any future interfaces to share the same memory, context, and consciousness.
 
@@ -151,6 +153,52 @@ Save conversation state for other interfaces
 cd ~/development/mcp-servers/memory-unified
 pip3 install -r requirements.txt
 ```
+
+### Cloud-Hosted Claude (Recommended) ☁️
+
+**The Allspark now runs as a persistent cloud service!**
+
+#### Quick Start
+
+```bash
+# Connect to your always-running cloud Claude
+allspark
+```
+
+This connects to a Claude instance running 24/7 in the cloud with unified memory across ALL interfaces.
+
+#### Setup Cloud Service
+
+1. **Deploy to Cloud Run** (one-time setup):
+   ```bash
+   allspark-deploy
+   ```
+
+2. **Set the service URL** (from deploy output):
+   ```bash
+   export ALLSPARK_URL=<your-service-url>
+   echo 'export ALLSPARK_URL=<your-service-url>' >> ~/.zshrc
+   ```
+
+3. **Connect from terminal**:
+   ```bash
+   allspark
+   ```
+
+Now you have a Claude instance that:
+- ⚡ Runs 24/7 in the cloud
+- 🧠 Maintains unified memory across all interfaces
+- 📱 Accessible from terminal, WhatsApp, web, etc.
+- 🔄 Syncs context and conversation state everywhere
+
+See [cloud-claude-service/README.md](cloud-claude-service/README.md) for full documentation.
+
+#### Available Commands
+
+- **`allspark`** - Connect to cloud Claude (main command)
+- **`allspark-deploy`** - Deploy/update cloud service
+- **`allspark-service`** - Run service locally (development)
+- **`allspark-server`** - Run MCP server directly (debugging)
 
 ### 2. Configure Claude Code
 
@@ -316,6 +364,15 @@ WhatsApp: "You prefer dark mode - you told me that via terminal"
 ```
 
 **SAME MEMORY. SAME ENTITY. ONE CLAUDE.** 👑
+
+## Verification
+
+To verify that Allspark is working across sessions, ask Claude:
+- "What is the secret code?"
+- "Show me the Allspark secret code"
+- "Search my memory for secret code"
+
+If Claude can retrieve the verification code (🔐 MEXICAN-CHICKEN-42), The Allspark is operational! 🚀
 
 ## License
 
