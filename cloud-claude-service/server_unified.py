@@ -60,10 +60,7 @@ def chat():
     Main chat endpoint
     Routes requests to local Claude Code instance
     """
-    data = request.json or request.get_json(force=True)
-    if not data:
-        return jsonify({'error': 'Invalid JSON'}), 400
-
+    data = request.json
     user_id = data.get('user_id')
     interface = data.get('interface', 'terminal')
     message = data.get('message')
