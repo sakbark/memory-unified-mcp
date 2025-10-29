@@ -127,9 +127,17 @@ are available across all interfaces."""
                 'role': 'assistant',
                 'content': response.content
             })
+            # Format tool results properly for Anthropic API
+            tool_result_blocks = []
+            for tr in tool_results:
+                tool_result_blocks.append({
+                    'type': 'tool_result',
+                    'tool_use_id': tr['tool_use_id'],
+                    'content': json.dumps(tr['result'])
+                })
             messages.append({
                 'role': 'user',
-                'content': tool_results
+                'content': tool_result_blocks
             })
 
             # Second API call with tool results
