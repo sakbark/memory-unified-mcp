@@ -52,10 +52,10 @@ gcloud run services describe allspark-claude \
     --format=yaml > allspark-claude-config.yaml
 
 # WhatsApp webhook config
-gcloud run services describe whatsapp-superclaud \
+gcloud run services describe whatsapp-claude-webhook \
     --region us-central1 \
     --project $PROJECT_ID \
-    --format=yaml > whatsapp-superclaud-config.yaml
+    --format=yaml > whatsapp-claude-webhook-config.yaml
 
 echo -e "${GREEN}✓${NC} Service configurations saved"
 
@@ -94,7 +94,7 @@ Timestamp: $TIMESTAMP
 Services:
 ---------
 Allspark Cloud Claude: https://allspark-claude-958443682078.us-central1.run.app
-WhatsApp SuperClaud: https://whatsapp-superclaud-958443682078.us-central1.run.app
+WhatsApp Claude Webhook: https://whatsapp-claude-webhook-np7c3nmqfa-uc.a.run.app
 
 Firestore Backup:
 -----------------

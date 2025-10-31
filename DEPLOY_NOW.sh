@@ -78,7 +78,7 @@ echo "Step 2/3: Deploying WhatsApp Thin Webhook"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
-cd /Users/saady/development/whatsapp-superclaud
+cd /Users/saady/whatsapp-claude-webhook
 
 # Backup current main.py if it exists
 if [ -f "main.py" ]; then
@@ -90,7 +90,7 @@ fi
 # Copy thin webhook as main
 cp main_thin_webhook.py main.py
 
-gcloud run deploy whatsapp-superclaud \
+gcloud run deploy whatsapp-claude-webhook \
     --source . \
     --platform managed \
     --region $REGION \
@@ -107,7 +107,7 @@ echo "✅ WhatsApp webhook deployed!"
 echo ""
 
 # Get webhook URL
-WEBHOOK_URL=$(gcloud run services describe whatsapp-superclaud \
+WEBHOOK_URL=$(gcloud run services describe whatsapp-claude-webhook \
     --region $REGION \
     --project $PROJECT_ID \
     --format='value(status.url)')
@@ -172,6 +172,6 @@ echo "    Send a message to your WhatsApp Business number"
 echo ""
 echo "4️⃣  Monitor logs:"
 echo "    gcloud run services logs read allspark-claude --region $REGION --limit 50"
-echo "    gcloud run services logs read whatsapp-superclaud --region $REGION --limit 50"
+echo "    gcloud run services logs read whatsapp-claude-webhook --region $REGION --limit 50"
 echo ""
 echo "🎉 You now have a unified Claude across all interfaces!"

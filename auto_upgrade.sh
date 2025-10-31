@@ -127,12 +127,10 @@ fi
 if [ "$REDEPLOY_WHATSAPP" = true ]; then
     echo -e "${YELLOW}→${NC} Redeploying WhatsApp webhook..."
 
-    cd /Users/saady/development/whatsapp-superclaud
+    cd /Users/saady/whatsapp-claude-webhook
 
-    # Use thin webhook
-    cp main_thin_webhook.py main.py
-
-    gcloud run deploy whatsapp-superclaud \
+    # Deploy the main webhook
+    gcloud run deploy whatsapp-claude-webhook \
         --source . \
         --platform managed \
         --region $REGION \
